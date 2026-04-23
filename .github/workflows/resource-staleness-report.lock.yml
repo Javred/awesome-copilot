@@ -67,6 +67,7 @@ run-name: "Resource Staleness Report"
 
 jobs:
   activation:
+    if: false
     runs-on: ubuntu-slim
     permissions:
       actions: read

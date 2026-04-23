@@ -1154,7 +1154,7 @@ jobs:
             await main();
 
   pre_activation:
-    if: ${{ contains(github.event.comment.body, '#codeowner') && github.event.issue.pull_request }}
+    if: false
     runs-on: ubuntu-slim
     outputs:
       activated: ${{ steps.check_membership.outputs.is_team_member == 'true' }}

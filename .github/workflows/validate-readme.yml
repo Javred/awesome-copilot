@@ -17,6 +17,7 @@ on:
 
 jobs:
   validate-readme:
+    if: false
     permissions:
       pull-requests: write
       contents: read

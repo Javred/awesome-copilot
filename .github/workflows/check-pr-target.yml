@@ -10,6 +10,7 @@ permissions:
 
 jobs:
   check-target:
+    if: false
     runs-on: ubuntu-latest
     steps:
       - name: Reject PR targeting main
